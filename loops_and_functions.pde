@@ -60,18 +60,76 @@
 
 
 //6.6
-String str="I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er en flok dyr.";
+//String str="I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er en flok dyr.";
 
-int i=0;
-int antalz=0;
 
-while(i<str.length())
-{ 
-  if(str.toLowerCase().charAt(i)=='z')
-  {
-    println(str.charAt(i));
-    antalz+=1;
-  }
-  i++;
-}
-println(antalz);
+//int i=0;
+//int antalz=0;
+
+//while(i<str.length())
+//{ 
+  //if(str.toLowerCase().charAt(i)=='z')
+  //{
+    //println("found"+str.charAt(i));
+    //antalz+=1;
+    //}
+  //i++;
+//}
+
+
+
+
+
+//6.7
+//String str="I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er en flok dyr.";
+
+//int antalz=0;
+
+//for(int i=0;i<str.length();i++)
+//{
+  //if(str.toLowerCase().charAt(i)=='z')
+  //{
+    //println(str.charAt(i));
+    //antalz+=1;
+  //}
+//}
+//println(antalz);
+
+
+
+//6.8
+
+          //opg 6.6 som en for-løkke
+//String str="I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er en flok dyr.";
+
+//int antalz=0;
+
+//for(int i=0;i<str.length();i++)
+//{
+  //if(str.toLowerCase().charAt(i)=='z')
+  //{
+    //println("found"+str.charAt(i));
+    //antalz+=1;
+  //}
+//}
+
+           // opg 6.7 som en whil-løkke
+ //String str="I Afrika lever der mange dyr på savannen, et af dem er zebraen. Zebraen er en flok dyr.";
+
+//int i=0;
+//int antalz=0;
+
+//while(i<str.length())
+{
+  //if(str.charAt(i)=='e')
+  //{
+    //println(str.charAt(i));
+    //antalz=antalz+1;
+  //}
+  //i++;
+//}
+//println(antalz);
+
+
+
+    
